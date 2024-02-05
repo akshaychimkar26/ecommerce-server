@@ -1,0 +1,37 @@
+.srh1 {
+    margin-left: 700px;
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+
+}
+
+.srh2 {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 60px;
+    height: 40px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .srh1 {
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 40px;
+        width: 170px;
+    }
+
+    .srh2 {
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 60px;
+        height: 40px;
+    }
+
+    .no {
+        position: absolute;
+        top: 80px;
+        right: 12px;
+    }
+}

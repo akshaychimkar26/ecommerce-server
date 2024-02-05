@@ -1,0 +1,206 @@
+.logo {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.head {
+    padding: 100px;
+    text-decoration: none;
+}
+
+.nav1 {
+    background-color: lightblue;
+}
+
+.nav2 {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+.nav3 {
+    width: 30px;
+    background-color: lightblue;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+.flex1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+.box {
+    height: 260px;
+    margin: 12px;
+}
+
+.img1 {
+    width: 240px;
+    height: 200px;
+}
+
+.p1 {
+    text-align: center;
+    color: blue;
+}
+
+.p2 {
+    text-align: center;
+    color: blue;
+}
+
+.p3 {
+    text-decoration: line-through;
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+.links {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    z-index: 1;
+    position: absolute;
+    left: 300px;
+    z-index: 1;
+}
+
+.lk {
+    cursor: pointer;
+}
+
+.cart {
+    margin-left: 20px;
+    font-size: large;
+}
+
+.carousell {
+    width: 150%;
+    height: 400px;
+    overflow-x: hidden;
+}
+
+.slide {
+    width: 1322px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .logo {
+        color: red;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .head {
+        padding: 100px;
+        text-decoration: none;
+    }
+
+    .nav1 {
+        background-color: lightblue;
+    }
+
+    .nav2 {
+        position: absolute;
+        top: 0px;
+        right: 5px;
+        background-color: lightblue;
+        text-decoration: none;
+    }
+
+    .nav3 {
+        width: 30px;
+        background-color: lightblue;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        font-size: 15px;
+    }
+
+    .flex1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: -1;
+    }
+
+    .box {
+        height: 260px;
+        margin: 40px;
+    }
+
+    .img1 {
+        width: 240px;
+        height: 200px;
+    }
+
+    .p1 {
+        text-align: center;
+        color: blue;
+    }
+
+    .p2 {
+        text-align: center;
+        color: blue;
+    }
+
+    .p3 {
+        text-decoration: line-through;
+        text-align: center;
+        color: blue;
+    }
+
+
+
+
+    .links {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 200px;
+        padding: 40px;
+        margin: 40px;
+        z-index: 1;
+        position: absolute;
+        left: 300px;
+        z-index: 1;
+    }
+
+    .lk {
+        cursor: pointer;
+    }
+
+    .cart {
+        margin-left: 20px;
+        font-size: large;
+    }
+
+    .carousell {
+        width: 120%;
+        height: 300px;
+        overflow-x: hidden;
+    }
+
+    .slide {
+        width: 280px;
+    }
+
+}

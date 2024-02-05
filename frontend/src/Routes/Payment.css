@@ -1,0 +1,38 @@
+/* Payment.css */
+
+.payment-container {
+    background-image: url("https://e0.pxfuel.com/wallpapers/425/73/desktop-wallpaper-payment-processing-software-development-payment-gateway-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    /* Set your desired background color */
+}
+
+.h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    /* Set your desired button color */
+    color: #fff;
+    /* Set your desired text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #2980b9;
+        /* Set your desired button color on hover */
+    }
+}

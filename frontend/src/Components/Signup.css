@@ -1,0 +1,19 @@
+.su {
+    background-color: lightblue;
+    width: 250px;
+    margin-left: 500px;
+    text-align: center;
+    padding: 30px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .su {
+        background-color: lightblue;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 190px;
+        text-align: center;
+        padding: 30px;
+    }
+}

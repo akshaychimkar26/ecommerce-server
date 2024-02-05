@@ -1,0 +1,59 @@
+.flexsp {
+    display: flex;
+
+}
+
+.simg {
+    height: 500px;
+}
+
+.sp1 {
+    font-size: 50px;
+
+}
+
+.sp2 {
+    font-size: 30px;
+}
+
+.sp3 {
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.back {
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .flexsp {
+        display: flex;
+
+    }
+
+    .simg {
+        height: 200px;
+    }
+
+    .sp1 {
+        font-size: 30px;
+
+    }
+
+    .sp2 {
+        font-size: 20px;
+    }
+
+    .sp3 {
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+
+    .ft {
+        margin-top: 230px;
+    }
+}
